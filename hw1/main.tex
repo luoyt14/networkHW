@@ -1,0 +1,77 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+
+\usepackage{xeCJK}
+\usepackage{caption}
+\setCJKmainfont{KaiTi}
+%\setmainfont{Times New Roman}
+\setCJKfamilyfont{hei}{SimHei}                                    %黑体  hei
+\newcommand{\hei}{\CJKfamily{hei}}      
+
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=blue,
+  linkbordercolor={0 0 1}
+}
+ 
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstdefinestyle{Python}{
+    language        = Python,
+    frame           = lines, 
+    basicstyle      = \footnotesize,
+    keywordstyle    = \color{blue},
+    stringstyle     = \color{green},
+    commentstyle    = \color{red}\ttfamily
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+% Edit these as appropriate
+\newcommand\course{现代信息网络技术}
+\newcommand\hwnumber{1}                  % <-- homework number
+\newcommand\NetIDa{罗雁天}           % <-- NetID of person #1
+\newcommand\NetIDb{2018310742}           % <-- NetID of person #2 (Comment this line out for problem sets)
+
+\pagestyle{fancyplain}
+\headheight 35pt
+\lhead{\NetIDa}
+\lhead{\NetIDa\\\NetIDb}                 % <-- Comment this line out for problem sets (make sure you are person #1)
+\chead{\textbf{\Large Homework \hwnumber}}
+\rhead{\course \\ \today}
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+
+\section{为什么UCLA在APPRNET的初期阶段起到重要的作用，其主要人物的师承关系是什么？}
+\begin{itemize}
+	\item 在1968年UCLA开发出了ARPANET主机级的协议；
+	\item 在1969年，ARPANET最初建立的四个节点中包括了UCLA，其他三所学校分别为UCSB、SRI、UTAH；
+	\item UCLA的一个团队在其导师Leonard Kleinrock的带领下加入了ARPANET的研究之中；
+	\item UCLA的团队发出了第一个数据包；
+	\item Jon Postel在UCLA就读期间参与了ARPANET的早期研究，帮助创建了第一个互联网地址注册表，并且一直参与撰写RFC，撰写和编辑了很多重要的RFC规范文档；
+	\item UCLA的研究生Stephen D. Crocker是开发ARPANET协议团队的一员，是“Request for Comments series”的发明人，参与撰写了第一个RFC等；
+	\item UCLA的研究生Vinton Gray Cerf与普林斯顿大学毕业的Robert Elliot Kahn一起发明了TCP/IP协议；
+	\item 1977年包含UCLA在内的ARPANET研究小组研究了网络工作的六种原型实现；
+	
+\end{itemize}
+由此可见，UCLA在APPRNET的初期阶段起到重要的作用
+
+
+\end{document}
